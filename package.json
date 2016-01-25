@@ -1,0 +1,25 @@
+{
+  "name": "jan_16_portfolio",
+  "version": "1.0.0",
+  "description": "new portfolio for boovius",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/boovius/jan_16_portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "boovius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boovius/jan_16_portfolio/issues"
+  },
+  "homepage": "https://github.com/boovius/jan_16_portfolio#readme",
+  "devDependencies": {
+    "webpack": "^1.12.12"
+  }
+}
