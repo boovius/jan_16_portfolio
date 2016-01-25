@@ -7,6 +7,7 @@ module.exports = {
 
   output: {
     path: __dirname + "/dist",
+    publicPath: 'http://localhost:8080/',
     filename: "app.js"
   },
   module: {
@@ -18,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.html$/,
-        loaders: ["file?name[name].[ext]"],
+        loaders: ["file?name=[name].[ext]"],
       },
     ],
   },

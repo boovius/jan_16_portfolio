@@ -2,9 +2,10 @@
   "name": "jan_16_portfolio",
   "version": "1.0.0",
   "description": "new portfolio for boovius",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack-server": "webpack-dev-server --hot --progress --colors",
+    "start": "npm run webpack-server"
   },
   "repository": {
     "type": "git",
