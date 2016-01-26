@@ -7,6 +7,9 @@ export default class Piece extends React.Component {
     return (
       <div className='piece'>
         <div className='piece-thumbnail'/>
+        <div className='piece-title'>
+          <h1>{this.props.piece.name}</h1>
+        </div>
       </div>
     )
   }

@@ -10,10 +10,11 @@ const PiecesData = [
   {name: 'StreetBeat'},
   {name: 'Enrichual'},
   {name: 'Doo2Nite'},
+  {name: 'Shavasana'},
 ]
 
 let pieces = PiecesData.map((piece, i) => {
-  return <Piece piece={piece}/>;
+  return <Piece key={i} piece={piece}/>;
 })
 
 let App = React.createClass({
