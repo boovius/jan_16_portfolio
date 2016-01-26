@@ -9,6 +9,7 @@ import './stylesheets/main.scss';
 const PiecesData = [
   {name: 'StreetBeat'},
   {name: 'Enrichual'},
+  {name: 'Doo2Nite'},
 ]
 
 let pieces = PiecesData.map((piece, i) => {
@@ -23,7 +24,7 @@ let App = React.createClass({
           BOOVIUS PROJECTS
         </div>
         <div id='main' className='main'>
-          <div id='pieces' className='layout pad-sides'>
+          <div id='pieces' className='layout pieces pad-sides'>
             {pieces}
           </div>
           <div id='bio-and-links' className='layout pad-sides'>
