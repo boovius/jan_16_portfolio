@@ -29,6 +29,10 @@ module.exports = {
         test: /\.html$/,
         loaders: ["file?name=[name].[ext]"],
       },
+      {
+        test: /\.(png|jpg)$/,
+        loaders: ["url-loader?limit=8192"],
+      },
     ],
   },
 };
