@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//componenets
 import Piece from './piece.js'
+import Link from './link.js'
 
-import {PiecesData, LinksData} from './data.js'
+//data
+import PiecesData from './data.js'
+import LinksData from './links_data.js'
 
+//css
 import './stylesheets/normalize.css';
 import './stylesheets/main.scss';
 
