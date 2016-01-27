@@ -27,9 +27,11 @@ export default class Piece extends React.Component {
     let captionStyles = this.state.hovered ? {visibility: 'visible'} : {visibility: 'hidden'};
 
     return (
-      <div className='piece'
+      <a className='piece'
         onMouseEnter={this.toggleHover}
         onMouseLeave={this.toggleHover}
+        href={this.props.piece.url}
+        target="_blank"
         >
         <div className='piece-thumbnail-container'>
           <div style={imageStyles} className='piece-thumbnail'/>
@@ -45,7 +47,7 @@ export default class Piece extends React.Component {
         <div className='piece-title'>
           <h1>{this.props.piece.name}</h1>
         </div>
-      </div>
+      </a>
     )
   }
 }

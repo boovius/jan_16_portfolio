@@ -1,6 +1,8 @@
 $piece-height: 300px;
 
 .piece {
+  display: block;
+  text-decoration: none;
   border: 1px solid blue;
   background-color: black;
   height: $piece-height;
