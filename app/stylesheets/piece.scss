@@ -34,31 +34,21 @@ $piece-height: 300px;
 }
 
 .piece-caption div {
-  position: absolute;
-  padding-left: 10;
-  padding-right: 10;
-  transition: all .2s ease-in-out;
+  padding: 10;
+  padding-top: 25;
+  margin-bottom: 20;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .55s ease-in-out;
+}
+
+.piece:hover .piece-caption div {
+  opacity: 1;
 }
 
 .piece-caption .summary {
-  left: -500;
-  top: 15%;
+
 }
-
-.piece-caption .build-details {
-  bottom: 25%;
-  right: -500;
-}
-
-.piece:hover .summary {
-  left: 0;
-}
-
-.piece:hover .build-details {
-  right: 0;
-}
-
-
 
 .piece-title {
   height: 20%;
