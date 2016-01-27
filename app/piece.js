@@ -34,7 +34,12 @@ export default class Piece extends React.Component {
         <div className='piece-thumbnail-container'>
           <div style={imageStyles} className='piece-thumbnail'/>
           <div className='piece-caption' style={captionStyles} >
-            {this.props.piece.caption}
+            <div className='summary'>
+              {this.props.piece.caption.summary}
+            </div>
+            <div className='build-details'>
+              {this.props.piece.caption.buildDetails}
+            </div>
           </div>
         </div>
         <div className='piece-title'>

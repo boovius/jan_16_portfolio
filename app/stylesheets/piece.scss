@@ -24,22 +24,41 @@ $piece-height: 300px;
 
 .piece-caption {
   position: absolute;
-  top: -50;
+  top: 0;
   left: 0;
   right: 0;
-  height: $piece-height + 50;
-  padding-top: 40;
-  padding-left: 10;
-  padding-right: 10;
+  height: $piece-height;
   color: white;
   background: rgba(0,0,0,0.7);
   visibility: hidden;
-  transition: all .3s ease-in-out;
 }
 
-.piece-caption:hover {
-  top: 0;
+.piece-caption div {
+  position: absolute;
+  padding-left: 10;
+  padding-right: 10;
+  transition: all .2s ease-in-out;
 }
+
+.piece-caption .summary {
+  left: -500;
+  top: 15%;
+}
+
+.piece-caption .build-details {
+  bottom: 25%;
+  right: -500;
+}
+
+.piece:hover .summary {
+  left: 0;
+}
+
+.piece:hover .build-details {
+  right: 0;
+}
+
+
 
 .piece-title {
   height: 20%;
