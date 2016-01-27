@@ -8,6 +8,20 @@ body {
   height: 80px;
   color: white;
   background-color: black;
+
+  .header-title {
+    position: absolute;
+    left: 8%;
+    top: 5%;
+  }
+
+  .header-heading {
+    font-size: 1.5em;
+  }
+
+  .header-subheading {
+    font-size: 1.2em;
+  }
 }
 
 .main {

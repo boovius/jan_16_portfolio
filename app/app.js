@@ -28,7 +28,10 @@ let App = React.createClass({
     return (
       <div>
         <div id='header' className='header'>
-          BOOVIUS PROJECTS
+          <div className='header-title'>
+            <div className='header-heading'>joshua c. book / Boovius</div>
+            <div className='header-subheading'> Software Developer Portfolio</div>
+          </div>
         </div>
         <div id='main' className='main'>
           <div id='pieces' className='layout pieces pad-sides'>
