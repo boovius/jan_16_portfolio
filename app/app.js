@@ -30,7 +30,7 @@ let App = React.createClass({
         <div id='header' className='header'>
           <div className='header-title'>
             <div className='header-heading'>joshua c. book / Boovius</div>
-            <div className='header-subheading'> Software Developer Portfolio</div>
+            <div className='header-subheading'> Software Development Portfolio</div>
           </div>
         </div>
         <div id='main' className='main'>

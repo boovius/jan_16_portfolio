@@ -1,7 +1,7 @@
 import React from 'react';
 //import FontAwesome from 'react-fontawesome';
 
-import './stylesheets/bio_and_links.scss';
+import './stylesheets/links.scss';
 
 export default class Link extends React.Component {
   render () {

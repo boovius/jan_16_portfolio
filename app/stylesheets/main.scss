@@ -34,14 +34,14 @@ body {
 }
 
 .layout {
-  border: 1px solid white;
+  //border: 1px solid white;
   color: white;
   float: left;
   width: 46%;
 }
 
 .pieces {
-  border: 1px solid white;
+  //border: 1px solid white;
   color: white;
   display: flex;
   flex-flow: row wrap;
@@ -52,6 +52,12 @@ body {
   img {
     height: 400;
     width: 100%;
+  }
+}
+
+#bio {
+  p {
+    text-indent: 30;
   }
 }
 
