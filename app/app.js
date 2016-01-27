@@ -7,10 +7,10 @@ import './stylesheets/normalize.css';
 import './stylesheets/main.scss';
 
 const PiecesData = [
-  {name: 'StreetBeat'},
-  {name: 'Enrichual'},
-  {name: 'Doo2Nite'},
-  {name: 'Shavasana'},
+  {name: 'StreetBeat', caption: 'the coolest app ever'},
+  {name: 'Enrichual', caption: 'the coolest app ever'},
+  {name: 'Doo2Nite', caption: 'the coolest app ever'},
+  {name: 'Shavasana', caption: 'the coolest app ever'},
 ]
 
 let pieces = PiecesData.map((piece, i) => {

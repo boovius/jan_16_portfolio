@@ -1,12 +1,36 @@
+$piece-height: 300px;
+
 .piece {
   border: 1px solid blue;
   background-color: black;
-  height: 300px;
+  height: $piece-height;
   width: 45%;
+}
+
+.piece-thumbnail-container {
+  position: relative;
+  overflow: hidden;
 }
 
 .piece-thumbnail {
   height: 80%;
+  transition: all .3s ease-in-out;
+}
+
+.piece-thumbnail-container:hover .piece-thumbnail {
+  transform: scale3d(1.2, 1.2, 1);
+}
+
+.piece-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $piece-height;
+  color: white;
+  background: rgba(0,0,0,0.7);
+  transition: all .3s ease-in-out;
+  visibility: hidden;
 }
 
 .piece-title {
