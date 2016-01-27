@@ -5,6 +5,7 @@ $piece-height: 300px;
   background-color: black;
   height: $piece-height;
   width: 45%;
+  cursor: pointer;
 }
 
 .piece-thumbnail-container {
@@ -17,20 +18,27 @@ $piece-height: 300px;
   transition: all .3s ease-in-out;
 }
 
-.piece-thumbnail-container:hover .piece-thumbnail {
+.piece:hover .piece-thumbnail {
   transform: scale3d(1.2, 1.2, 1);
 }
 
 .piece-caption {
   position: absolute;
-  top: 0;
+  top: -50;
   left: 0;
   right: 0;
-  height: $piece-height;
+  height: $piece-height + 50;
+  padding-top: 40;
+  padding-left: 10;
+  padding-right: 10;
   color: white;
   background: rgba(0,0,0,0.7);
-  transition: all .3s ease-in-out;
   visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+
+.piece-caption:hover {
+  top: 0;
 }
 
 .piece-title {
