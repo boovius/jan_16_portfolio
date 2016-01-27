@@ -43,7 +43,7 @@ let App = React.createClass({
                 <p>Joshua Book is a full-stack web developer currently living in and from NY.  A wanderer and journery, Josh loves to travel the world, meet new people, and experience different cultures.  Former filmmaker, Josh's goals are to create innovative technology that empowers people all over.</p>
               </div>
             </div>
-            <div id='links'>
+            <div id='links' className='links'>
               {links}
             </div>
           </div>

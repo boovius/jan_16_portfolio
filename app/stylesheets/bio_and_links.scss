@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+  width: 40%;
+
+  &:hover {
+    color: purple;
+  }
+}
