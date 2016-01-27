@@ -8,11 +8,11 @@ body {
   height: 80px;
   color: white;
   background-color: black;
+  padding-top: 10;
 
   .header-title {
     position: absolute;
     left: 8%;
-    top: 5%;
   }
 
   .header-heading {
@@ -50,7 +50,7 @@ body {
 
 #pic {
   img {
-    height: 80%;
+    height: 400;
     width: 100%;
   }
 }
