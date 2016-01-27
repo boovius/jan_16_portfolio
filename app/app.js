@@ -8,6 +8,7 @@ import Link from './link.js'
 //data
 import PiecesData from './data.js'
 import LinksData from './links_data.js'
+import BioData from './bio_data.js'
 
 //css
 import './stylesheets/normalize.css';
@@ -43,7 +44,7 @@ let App = React.createClass({
                 <img src={pic}/>
               </div>
               <div id='bio'>
-                <p>Joshua Book is a full-stack web developer currently living in and from NY.  A wanderer and journery, Josh loves to travel the world, meet new people, and experience different cultures.  Former filmmaker, Josh's goals are to create innovative technology that empowers people all over.</p>
+                <p>{BioData}</p>
               </div>
             </div>
             <div id='links' className='links'>
