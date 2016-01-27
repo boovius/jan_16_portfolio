@@ -60,3 +60,12 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
 }
+
+.footer {
+  height: 40;
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}

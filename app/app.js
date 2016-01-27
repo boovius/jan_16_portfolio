@@ -51,6 +51,9 @@ let App = React.createClass({
             </div>
           </div>
         </div>
+        <div id='footer' className='footer'>
+          site built by Boovius in reactjs, es6, css3 trans, flexbox, webpack, babel
+        </div>
       </div>
     )
   }
